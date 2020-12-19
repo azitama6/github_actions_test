@@ -28,4 +28,4 @@ jobs:
       with:
         ruby-version: 2.7.2
     - name: Run tests
-      run: pwd
+      run: test/rgb_test.rb 
