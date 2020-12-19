@@ -1,10 +1,11 @@
-
+#16進数に変換
 def to_hex(r,g,b)
   [r,g,b].inject('#') do |hex,n|
     hex + n.to_s(16).rjust(2,'0')
   end
 end
 
+#10進数に変換
 def to_ints(hex)
   
   r = hex[1..2]
