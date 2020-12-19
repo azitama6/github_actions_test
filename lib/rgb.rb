@@ -1,4 +1,5 @@
 
+
 #16進数に変換
 def to_hex(r,g,b)
   [r,g,b].inject('#') do |hex,n|
