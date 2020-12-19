@@ -1,3 +1,4 @@
+
 #16進数に変換
 def to_hex(r,g,b)
   [r,g,b].inject('#') do |hex,n|
@@ -6,8 +7,7 @@ def to_hex(r,g,b)
 end
 
 #10進数に変換
-def to_ints(hex)
-  
+def to_ints(hex)  
   r = hex[1..2]
   g = hex[3..4]
   b = hex[5..6]
