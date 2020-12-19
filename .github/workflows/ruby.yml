@@ -28,4 +28,4 @@ jobs:
       with:
         ruby-version: 2.7.2
     - name: Run tests
-      run: azitama6/github_actions_test/blob/master/test/rgb_test.rb
+      run: pwd
